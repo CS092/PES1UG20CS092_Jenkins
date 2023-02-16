@@ -3,13 +3,13 @@ pipeline {
   stages { 
     stage('Build') { 
       steps { 
-        sh '/var/jenkins_home/workspace/PES1UG20CS092-1/main/hello_exec'
+        sh ''
         echo 'Build Stage Successful' 
       }
     } 
     stage('Test') {
       steps { 
-        sh 'a.exe'
+        sh '/var/jenkins_home/workspace/PES1UG20CS092-1/main/hello_exec'
         echo 'Test Stage Successful'
       } 
     }
