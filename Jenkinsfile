@@ -4,7 +4,8 @@ pipeline {
   stages { 
     stage('Build') { 
       steps { 
-        sh 'mvn clean install' echo 'Build Stage Successful' 
+        sh 'mvn clean install'
+        echo 'Build Stage Successful' 
       }
     } 
     stage('Test') {
