@@ -9,7 +9,7 @@ pipeline {
     } 
     stage('Test') {
       steps { 
-        sh 'a.exe'
+        sh 'dir'
         echo 'Test Stage Successful'
       } 
     }
