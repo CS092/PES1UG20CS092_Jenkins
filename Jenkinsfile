@@ -12,14 +12,14 @@ pipeline {
         sh 'a.exe'
         echo 'Test Stage Successful'
       } 
-     }
-    } 
+    }
     stage('Deploy') { 
       steps { 
         sh ''
         echo 'Deployment Successful' 
       }
     }
+  }
   post {
     failure { 
       echo 'Pipeline failed' 
