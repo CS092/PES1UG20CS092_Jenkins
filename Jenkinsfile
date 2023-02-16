@@ -3,7 +3,7 @@ pipeline {
   stages { 
     stage('Build') { 
       steps { 
-        sh 'build PES1UG20C0S92-1'
+        sh '/var/jenkins_home/workspace/PES1UG20CS092-1/main/hello_exec'
         echo 'Build Stage Successful' 
       }
     } 
